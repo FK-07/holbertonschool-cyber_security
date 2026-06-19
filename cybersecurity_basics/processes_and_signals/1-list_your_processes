@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#I d
+isplaying the current process in terminal with hierarchy with auxf command
+ps auxf
