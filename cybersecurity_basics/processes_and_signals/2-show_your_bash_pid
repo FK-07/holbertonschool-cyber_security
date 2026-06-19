@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #In this script is displaying process which is have bash word
-# shellcheck disable=SC2009
-ps aux | greop bash
+#shellcheck disable=SC2009
+ps aux | grep bash
