@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# 1. Öz PID nomremizi fayla yaziriq
+echo "$$" > /tmp/myscript.pid
+
+# 2. Signallari daxili emrlerle havada tuturuq
+trap "echo "Y U no love me?!"" SIGINT
+trap "echo "I hate the kill command"; rm -f /tmp/myscript.pid; exit 0" SIGTERM
+trap "rm -f /tmp/myscript.pid; exit 0" SIGQUIT
+
+# 3. Sonsuz dovr
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
+done
