@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Catch SIGTERM and print a message without dying
-trap "echo "I am invincible!!!"" SIGTERM
+# Catch SIGTERM cleanly using double quotes
+trap "echo \"I am invincible!!!\"" SIGTERM
 
 while true; do
-    echo "To infinity and beyond"
-    sleep 2
+ echo "To infinity and beyond"
+ sleep 2
 done
