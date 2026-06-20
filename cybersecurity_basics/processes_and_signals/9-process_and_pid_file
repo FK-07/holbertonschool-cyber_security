@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Manage PID file and handle multiple signals safely
+# Creates PID file, displays messages indefinitely, and handles signals
 
-# 1. Öz PID nomremizi fayla yaziriq
+# 1. Yazildiyi an öz PID nomremizi fayla qeyd edir
 echo "$$" > /tmp/myscript.pid
 
-# 2. Signallari daxili emrlerle havada tuturuq
+# 2. Siqnallari sertde teleb olunan mesajlarla havada tutur
 trap "echo "Y U no love me?!"" SIGINT
 trap "echo "I hate the kill command"; rm -f /tmp/myscript.pid; exit 0" SIGTERM
 trap "rm -f /tmp/myscript.pid; exit 0" SIGQUIT
