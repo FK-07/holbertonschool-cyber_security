@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Manage PID file and handle multiple signals safely
 
 # 1. Öz PID nomremizi fayla yaziriq
 echo "$$" > /tmp/myscript.pid
