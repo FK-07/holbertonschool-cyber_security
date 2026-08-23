@@ -1,1 +1,2 @@
-#!/bin/bash\nnslookup -type=MX $1
+#!/bin/bash
+nslookup -type=MX $1
