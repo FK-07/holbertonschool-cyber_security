@@ -1,2 +1,2 @@
-#!/bin/bashh
-nslookup -type MX $1"
+#!/bin/bash
+nslookup -type MX $1
