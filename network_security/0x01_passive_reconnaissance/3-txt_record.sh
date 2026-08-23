@@ -1,2 +1,2 @@
 #!/bin/bash
-nslookup -type TXT $1
+nslookup -type=TXT $1
