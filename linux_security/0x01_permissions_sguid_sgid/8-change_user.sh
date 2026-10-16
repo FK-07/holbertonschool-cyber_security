@@ -1,3 +1,2 @@
 #!/bin/bash
-find "$1" -user user2 -exec chown user3 {} +#!/bin/bash
-find "$1" -user user2 -exec chown user3 {} +
+find "$1" -user user2 -exec chown user3 {} \;
