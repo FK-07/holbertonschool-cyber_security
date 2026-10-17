@@ -1,1 +1,1 @@
-http://active.hbtn nginx 1.18.0
+http://active.hbtn [n,N]ginx.1\.18\.0$
