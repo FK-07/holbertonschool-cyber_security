@@ -1,2 +1,2 @@
 #!/bin/bash
-openssl passwd -6 -salt $(openssl rand -hex 8) "$1" > 3_hash.txt
+echo -n "$1$(openssl rand -hex 8)" | openssl dgst -sha512 > 3_hash.txt
