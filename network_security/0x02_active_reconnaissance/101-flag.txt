@@ -1,2 +1,1 @@
-password1@O95MMLND
-admin
+@O95MMLND
