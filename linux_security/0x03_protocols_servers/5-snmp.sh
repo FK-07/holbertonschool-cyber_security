@@ -1,2 +1,2 @@
 #!/bin/bash
-nmap -sU -p 161 --script snmp-public $1
+grep -E "com2sec|rocommunity" /etc/snmp/snmpd.conf
