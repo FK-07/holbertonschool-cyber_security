@@ -1,0 +1,6 @@
+.htaccess           [32m (Status: 200)[0m [Size: 385]
+0                   [36m (Status: 301)[0m [Size: 0][34m [--> http://web0x04.hbtn/0/][0m
+T                   [36m (Status: 301)[0m [Size: 0][34m [--> http://web0x04.hbtn/tour-to-the-beautiful-city-of-mpg_city-in-mpg_country/][0m
+_                   [36m (Status: 301)[0m [Size: 0][34m [--> http://web0x04.hbtn/tour-to-the-beautiful-city-of-mpg_city-in-mpg_country/][0m
+admin               [36m (Status: 302)[0m [Size: 0][34m [--> http://web0x04.hbtn/wp-admin/][0m
+atom                [36m (Status: 301)[0m [Size: 0][34m [--> http://web0x04.hbtn/feed/atom/][0m
