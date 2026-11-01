@@ -1,7 +1,0 @@
-upload
-files
-media
-img
-up
-admin
-app
